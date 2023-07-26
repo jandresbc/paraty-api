@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "f0e9fba4-2041-4305-a363-8ca18728082c",
+		"name": "Paraty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6557003"
+	},
+	"item": [
+		{
+			"name": "Filter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"types\":\"movie\",\r\n    \"release_year\":2020\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/filter",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/read",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"read"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

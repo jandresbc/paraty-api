@@ -4,5 +4,5 @@ flask_sqlalchemy
 flask_migrate
 marshmallow-sqlalchemy
 pymsql 
-panda
+pandas
 numpy
