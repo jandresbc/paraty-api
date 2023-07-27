@@ -3,6 +3,7 @@ flask_restful
 flask_sqlalchemy 
 flask_migrate
 marshmallow-sqlalchemy
-pymsql 
+pymysql
 pandas
 numpy
+google-cloud-appengine-admin
